@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="beerTab" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1020.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+
+      <TabPane prefHeight="1020.0" prefWidth="1920.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="Beer">
+               <content>
+                  <BorderPane prefHeight="991.0" prefWidth="1871.0">
+                     <center>
+                        <GridPane prefHeight="1001.0" prefWidth="1600.0" BorderPane.alignment="CENTER">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="20.0" minWidth="20.0" prefWidth="20.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="20.0" minWidth="20.0" prefWidth="20.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="20.0" minHeight="20.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="200.0" minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="200.0" minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="200.0" minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="200.0" minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="200.0" minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="200.0" minHeight="100.0" prefHeight="100.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="20.0" minHeight="20.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Button fx:id="button1" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button1" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button2" layoutX="30.0" layoutY="30.0" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button2" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button3" layoutX="230.0" layoutY="30.0" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button3" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button4" layoutX="430.0" layoutY="30.0" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button4" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button5" layoutX="630.0" layoutY="30.0" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button5" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button6" layoutX="830.0" layoutY="30.0" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button6" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button8" layoutX="1030.0" layoutY="30.0" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button8" GridPane.columnIndex="8" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button7" layoutX="10.0" layoutY="8.0" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button7" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button9" layoutX="10.0" layoutY="8.0" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button9" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button10" layoutX="10.0" layoutY="8.0" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button10" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button11" layoutX="1230.0" layoutY="30.0" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button11" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button12" layoutX="10.0" layoutY="8.0" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button12" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button13" layoutX="10.0" layoutY="8.0" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button13" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button14" layoutX="430.0" layoutY="189.0" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button14" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button15" layoutX="10.0" layoutY="8.0" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button15" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button16" layoutX="630.0" layoutY="189.0" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button16" GridPane.columnIndex="8" GridPane.rowIndex="2">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button17" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button17" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button18" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button18" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button19" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button19" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button20" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button20" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button21" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button21" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button22" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button22" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button23" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button23" GridPane.columnIndex="7" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button24" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button24" GridPane.columnIndex="8" GridPane.rowIndex="3">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button25" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button25" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button26" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button26" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button27" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button27" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button28" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button28" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button29" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button29" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button30" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button30" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button31" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button31" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button32" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button32" GridPane.columnIndex="8" GridPane.rowIndex="4">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button33" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button33" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button34" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button34" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button35" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button35" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button36" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button36" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button37" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button37" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button38" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button38" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button39" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button39" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button40" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button40" GridPane.columnIndex="8" GridPane.rowIndex="5">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button41" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button41" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button42" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button42" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button43" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button43" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button44" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button44" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button45" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button45" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button46" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button46" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button47" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button47" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="button48" mnemonicParsing="false" prefHeight="159.0" prefWidth="207.0" text="Button48" GridPane.columnIndex="8" GridPane.rowIndex="6">
+                                 <font>
+                                    <Font name="System Bold" size="31.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </GridPane>
+                     </center>
+                     <right>
+                        <GridPane prefHeight="969.0" prefWidth="286.0" BorderPane.alignment="CENTER">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="118.0" minWidth="10.0" prefWidth="110.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="62.0" minWidth="10.0" prefWidth="34.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="315.0" minHeight="0.0" prefHeight="11.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="915.0" minHeight="10.0" prefHeight="575.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="245.0" minHeight="10.0" prefHeight="77.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="226.0" minHeight="10.0" prefHeight="212.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="218.0" minHeight="10.0" prefHeight="92.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="177.0" minHeight="10.0" prefHeight="42.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Button fx:id="newTabButton" mnemonicParsing="false" prefHeight="81.0" prefWidth="268.0" text="NEW TAB" GridPane.columnSpan="2147483647" GridPane.rowIndex="2" />
+                              <Button fx:id="checkOutButton" mnemonicParsing="false" prefHeight="209.0" prefWidth="268.0" text="CHECK OUT" GridPane.columnSpan="2147483647" GridPane.rowIndex="3" />
+                              <Button fx:id="deleteButton" layoutX="105.0" layoutY="842.0" mnemonicParsing="false" prefHeight="102.0" prefWidth="268.0" text="DELETE" GridPane.columnSpan="2147483647" GridPane.rowIndex="4" />
+                           </children>
+                        </GridPane>
+                     </right>
+                  </BorderPane>
+               </content>
+          </Tab>
+          <Tab text="Liqour">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+
+</AnchorPane>
